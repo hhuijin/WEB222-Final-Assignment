@@ -1,0 +1,97 @@
+html {
+    font-family: sans-serif; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+  }
+   
+  body{
+    background-image: url("https://wallpaperaccess.com/full/3505333.jpg");
+  
+  }
+  
+  header {
+    background-color: pink;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  
+  
+  header h1 {
+    color: black ;    
+    margin-top: 25px;
+    margin-left: 140px;
+    text-align: left;
+  }
+  
+  
+  #main{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  nav {
+    width: 20%;
+  }
+  
+  #article {
+    width: 80%;
+  }
+  
+  #nav-container{
+    background-color: #ccc;
+    margin: 20px;
+    border-radius: 20px;
+    height: 60vh;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+    width: 50%; /* Full height */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+  
+  li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  li a.active {
+    background-color: grey;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:pink;
+    color: white;
+  }
+  
+  
+  
+  
+  
+  footer {
+    background-color:lightpink;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    color: black ;
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  
